@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# YOLO output
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.mlpackage
+
+# Dataset
+data/helmet_dataset/
+*.zip
+
+# Video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Cache
+.cache/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
